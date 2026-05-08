@@ -1,5 +1,6 @@
 @font-face {
-    font-family: Open sa;
+    font-family: "open-sans";
+    src: url();
     font-size: 1em;
 }
 
@@ -114,10 +115,31 @@ header #logotipo{
 
 #menu{
     margin-top: 30px;
-    color: white;
-    
-    
+    font-family: "open-sans";
 
+}
+
+#menu li a{
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+
+}
+
+#search ::-webkit-input-placeholder{
+    color: white;
+}
+
+#search button{
+    background: none;
+    border: none;
+}
+
+#search input{
+    width: 180px;
+    height: 30px;
+    background-color: #4f257e; 
+    border: none;
 }
 
 
