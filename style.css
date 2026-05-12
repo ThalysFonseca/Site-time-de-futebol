@@ -204,7 +204,7 @@ section{
 }
 
 #news hr{
-    border: #eebb2d solid 4px ;
+    border: #eebb2d solid 2px ;
     width: 350px;
     margin: 0 auto;
 }
@@ -261,8 +261,8 @@ section{
 }
 
 #call-to-action hr{
-    border: #eebb2d solid 4px ;
-    width: 350px;
+    border: #eebb2d solid 2px ;
+    width: 950px;
     margin: 0 auto;
 
 }
@@ -273,6 +273,31 @@ section{
     color: #656565;
 }
 
-#call-to-action .btn{
-    align-items: center;
+#call-to-action #btn-roxo{
+    color: #fff;
+    background-color: #5e299a;
+    border-color: #5e299a;
+    min-width: 164px;
+    height: 44px;
+    margin-right: 400px;
+}
+
+#call-to-action #btn-amarelo{
+    color: #000;
+    background-color: #fde192;
+    border-color: #fde192;
+    min-width: 164px;
+    height: 44px;
+    
+}
+
+.btn-amarelo {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.btn-roxo {
+    color: #fff;
+    text-decoration: none;
 }
